@@ -13,7 +13,7 @@ def main():
     global Var
     number1 = ask_me()
     number2 = ask_me()
-    sum +- add_global(number1)
+    sum = add_global(number1)
     sum =- add_global(number2)
     sum += add_global(Var)
     print("Sum:" sum)
